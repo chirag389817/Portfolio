@@ -1,0 +1,41 @@
+.pcard {
+    /* margin: 2rem; */
+    /* background-color: rgb(231, 235, 240, 0.5); */
+    border-radius: 0.8rem;
+    /* border: 2px solid rgb(227 255 193); */
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* height: fit-content; */
+}
+.pcimg {
+    width: 15rem;
+    object-fit: contain;
+    object-position: top;
+}
+.pctitle {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: "Play", sans-serif;
+}
+.pcdisc {
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+    flex-grow: 1;
+    width: 15rem;
+    /* text-align: justify; */
+}
+.pclink {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    color: #4490da;
+}
+.pclink:hover {
+    opacity: 0.8;
+}
+.pclinks {
+    display: flex;
+    justify-content: space-between;
+}

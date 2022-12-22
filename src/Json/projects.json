@@ -1,0 +1,10 @@
+[
+    {
+        "type": "web",
+        "logo": "https://chirag389817.github.io/patels-clock/logo.png",
+        "name": "Patel's Clock",
+        "disc": "I created this digital clock from scratch using JavaScript and CSS in React JS. ",
+        "gitlink": "https://github.com/chirag389817/patels-clock",
+        "plink": "https://chirag389817.github.io/patels-clock/"
+    }
+]

@@ -1,0 +1,24 @@
+.profile-container {
+    height: var(--fit-vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ptext {
+    padding: 2rem;
+}
+#pimage {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 2rem;
+}
+.ptext p {
+    text-align: center;
+    font-family: var(--title-primary);
+}
+p.name {
+    font-size: 4rem;
+}
+p.skill {
+    font-size: 1.5rem;
+}

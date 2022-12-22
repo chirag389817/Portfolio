@@ -1,0 +1,15 @@
+.mcontainer {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.media .icon {
+    margin: 0 0.5rem;
+    color: #4490da;
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.pgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    justify-items: center;
+    margin-top: 1rem;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 1300px) {
+    .pgrid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .pgrid {
+        grid-template-columns: 1fr;
+    }
+}
