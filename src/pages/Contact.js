@@ -9,7 +9,7 @@ function Contact() {
         e.preventDefault();
         let msg = `Email :- ${e.target.email.value}<br/>Subject :- ${e.target.sub.value}<br/><br/>${e.target.msg.value}`;
         window.Email.send({
-            SecureToken: "42fdc811-33c9-4a09-91c9-c1f557ab4068",
+            SecureToken: "15a1d2c0-07fe-41b5-bdcf-5207228b2596",
             To: "chirag389817+portfolio@gmail.com",
             From: "chirag389817@gmail.com",
             Subject: e.target.sub.value,
