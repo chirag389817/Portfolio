@@ -12,11 +12,11 @@ const navHide = {
 const navShow = {
     bar: "none",
     close: "block",
-    list: "flex"
+    list: "grid"
 };
 
 function Navbar() {
-    const [navStatus, setNavStatus] = useState(navHide);
+    const [navStatus, setNavStatus] = useState(navShow);
     const changeNavStatus = (event) => {
         if (navStatus.bar === "block") setNavStatus(navShow);
         else setNavStatus(navHide);

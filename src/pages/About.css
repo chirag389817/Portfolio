@@ -43,8 +43,13 @@
 @media only screen and (max-width: 850px) {
     .aitem-con {
         grid-template-columns: 1fr;
+        justify-items: left;
     }
-    .aimage-con {
-        justify-content: space-between;
+    .aimage-con img {
+        width: 8rem;
+    }
+    .aimage-con .name {
+        font-size: 1.6rem;
+        text-align: center;
     }
 }
