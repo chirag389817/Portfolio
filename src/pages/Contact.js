@@ -31,7 +31,7 @@ function Contact() {
                     <input
                         name="email"
                         type="email"
-                        placeholder="Youe Email"
+                        placeholder="Your Email"
                         required
                     />
                 </div>
