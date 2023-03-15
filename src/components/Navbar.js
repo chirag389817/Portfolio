@@ -16,7 +16,7 @@ const navShow = {
 };
 
 function Navbar() {
-    const [navStatus, setNavStatus] = useState(navShow);
+    const [navStatus, setNavStatus] = useState(navHide);
     const changeNavStatus = (event) => {
         if (navStatus.bar === "block") setNavStatus(navShow);
         else setNavStatus(navHide);
